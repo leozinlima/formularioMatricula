@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --brand-light: #F67841;
     --brand-mid: #F3541C;
@@ -20,8 +26,14 @@
     --pink: #F682A5;
 
     --font-family: font-family: "Poppins", serif;
+    --text: 400 1rem/1.5 var(--font-family);
+    --text-sm: 400 0.875rem/1.4 var(--font-family);
     --h1: 400 32px/1.2 var(--font-family);
     --h2: 400 24px/1.2 var(--font-family);
     --h3: 400 20px/1.2 var(--font-family);
     --h4: 400 16px/1.2 var(--font-family);
+}
+
+body {
+    overflow: hidden;
 }
