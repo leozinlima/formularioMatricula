@@ -6,7 +6,7 @@ input, textarea, select {
     border-radius: .5rem;
     border: 1px solid var(--stroke-default);
 
-    padding: .75rem 1 rem;
+    padding: .75rem 1rem;
 
     font: var(--text);
 }
