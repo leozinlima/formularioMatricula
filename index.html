@@ -92,7 +92,10 @@
 
                         <div class="input-wrapper">
                             <label for="cep">CEP</label>
-                            <input type="text" name ="cep" id="cep">
+                            <input 
+                                type="text" 
+                                name="cep" 
+                                id="cep">
                             
                         </div>
 
@@ -109,7 +112,10 @@
 
                             <div class="input-wrapper flex-1">
                                 <label for="number">Número</label>
-                                <input type="number" name="number" id="number">
+                                <input 
+                                    type="number" 
+                                    name="number" 
+                                    id="number">
                             </div>
                         </div>
 
@@ -132,6 +138,41 @@
                                     id="state"
                                     value="SP" 
                                     disabled>
+                            </div>
+                        </div>
+                    </fieldset>
+
+                    <fieldset class="gardian">
+                        <legend>Informações do responsável</legend>
+
+                        <div class="input-wrapper">
+                            <label for="gardian">Nome do responsável</label>
+                            <input 
+                                type="text" 
+                                name="gardian" 
+                                id="gardian">
+                            <small>Principal responsável legal e contato de emergência</small>
+                        </div>
+
+                        <div class="input-wrapper">
+                            <label for="phone">Telefone</label>
+                            <input 
+                                type="tel" 
+                                name="phone" 
+                                id="phone" 
+                                placeholder="(10) 9 8765-4321">
+                        </div>
+
+                        <div class="input-wrapper">
+                            <label for="email">E-mail</label>
+                            <input 
+                                type="email" 
+                                name="email" 
+                                id="email"
+                                required>
+                            <div class="error">
+                                <img src="assets/icons/alert-circle.svg" alt="error">
+                                <span>Insira um e-mail válido</span>
                             </div>
                         </div>
                     </fieldset>
